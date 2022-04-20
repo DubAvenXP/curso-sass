@@ -1,0 +1,27 @@
+$palette: (
+    'primary': rgb(97, 97, 211),
+    'secondary': rgb(43, 128, 102),
+    'danger': rgb(231, 47, 56),
+    'success': rgb(46, 204, 113),
+    'blue': rgb(0, 0, 120),
+    'orange': rgb(255, 128, 0),
+    'dark': #000,
+    'light': #fff,
+);
+
+$primary: rgb(97, 97, 211);
+$secondary: rgb(43, 128, 102);
+$danger: rgb(231, 47, 56);
+$success: rgb(46, 204, 113);
+$blue: rgb(0, 0, 120);
+$orange: rgb(255, 128, 0);
+$dark: #000;
+$light: #fff;
+
+$dark-opacity: rgba(map-get($map: $palette, $key: 'dark'), 0.5);
+$font-size-sm: 1.4rem;
+$font-size-md: 2.4rem;
+$font-size-lg: 3.2rem;
+$font-family: "Roboto", sans-serif;
+$brand: "curso";
+

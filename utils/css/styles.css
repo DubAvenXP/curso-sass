@@ -1,0 +1,193 @@
+/* 
+Abstracts
+ */
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+/* 
+Components
+ */
+.card {
+  width: 300px;
+  padding: 0px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+  border-radius: 5px;
+}
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.card-body {
+  padding: 10px;
+  font-size: 1.4rem;
+}
+
+.curso-title-primary {
+  text-align: center;
+  color: #6161d3;
+  font-size: 3.2rem;
+}
+.curso-title-secondary {
+  font-size: 3.2rem;
+  text-align: center;
+  color: #2b8066;
+}
+.curso-title-dark {
+  font-size: 3.2rem;
+  text-align: center;
+  color: #000;
+}
+.curso-text {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.btn-outline-light, .btn-outline-dark, .btn-outline-orange, .btn-outline-blue, .btn-outline-success, .btn-outline-primary, .btn-outline-secondary, .btn-outline-danger, .btn-primary, .btn-secondary, .btn-danger {
+  height: 40px;
+  min-width: 100px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.4rem;
+  margin: 5px 0;
+}
+.btn-outline-light:hover, .btn-outline-dark:hover, .btn-outline-orange:hover, .btn-outline-blue:hover, .btn-outline-success:hover, .btn-outline-primary:hover, .btn-outline-secondary:hover, .btn-outline-danger:hover, .btn-primary:hover, .btn-secondary:hover, .btn-danger:hover {
+  box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.btn-primary, .btn-secondary, .btn-danger {
+  background-color: #fff;
+}
+.btn-primary {
+  background-color: #6161d3;
+}
+.btn-secondary {
+  background-color: #2b8066;
+}
+.btn-danger {
+  background-color: #e72f38;
+}
+
+.btn-outline-primary, .btn-outline-secondary, .btn-outline-danger {
+  background-color: #fff;
+}
+.btn-outline-primary {
+  background-color: #fff;
+  border: 1px solid #6161d3;
+  color: #6161d3;
+}
+.btn-outline-primary:hover {
+  background-color: #6161d3;
+  color: #fff;
+}
+.btn-outline-secondary {
+  background-color: #fff;
+  border: 1px solid #2b8066;
+  color: #2b8066;
+}
+.btn-outline-secondary:hover {
+  background-color: #2b8066;
+  color: #fff;
+}
+.btn-outline-danger {
+  background-color: #fff;
+  border: 1px solid #e72f38;
+  color: #e72f38;
+}
+.btn-outline-danger:hover {
+  background-color: #e72f38;
+  color: #fff;
+}
+.btn-outline-success {
+  background-color: #fff;
+  border: 1px solid #2ecc71;
+  color: #2ecc71;
+}
+.btn-outline-success:hover {
+  background-color: #2ecc71;
+  color: #fff;
+}
+.btn-outline-blue {
+  background-color: #fff;
+  border: 1px solid #000078;
+  color: #000078;
+}
+.btn-outline-blue:hover {
+  background-color: #000078;
+  color: #fff;
+}
+.btn-outline-orange {
+  background-color: #fff;
+  border: 1px solid #ff8000;
+  color: #ff8000;
+}
+.btn-outline-orange:hover {
+  background-color: #ff8000;
+  color: #fff;
+}
+.btn-outline-dark {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+.btn-outline-dark:hover {
+  background-color: #000;
+  color: #fff;
+}
+.btn-outline-light {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #fff;
+}
+
+.im-container {
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  background: #2b8066;
+}
+.im-container-lg {
+  height: 500px;
+  width: 700px;
+  padding: 1rem;
+  margin: 1rem;
+  background: #6161d3;
+}
+
+.center {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.alert-primary, .alert-danger {
+  width: calc(100% - 1rem - 30px);
+  padding: 1.5rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  font-size: 1.15rem;
+  letter-spacing: 5px;
+  color: #fff;
+}
+.alert-primary {
+  background: #2ecc71;
+}
+.alert-danger {
+  background: #e72f38;
+}
+
+/*# sourceMappingURL=styles.css.map */

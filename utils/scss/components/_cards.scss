@@ -1,0 +1,19 @@
+.card {
+    width: 300px;
+    padding: 0px;
+    border: {
+        width: 1px;
+        style: solid;
+        color: $dark;
+        radius: 5px;
+    }
+    img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+    &-body {
+        padding: 10px;
+        font-size: $font-size-sm;
+    }
+}

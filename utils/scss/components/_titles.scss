@@ -1,0 +1,21 @@
+.#{$brand} {
+    &-title-primary {
+        text-align: center;
+        color: $primary;
+        font-size: $font-size-lg;
+    }
+    &-title-secondary {
+        font-size: $font-size-lg;
+        text-align: center;
+        color: $secondary;
+    }
+    &-title-dark {
+        font-size: $font-size-lg;
+        text-align: center;
+        color: $dark;
+    }
+    &-text {
+        font-size: $font-size-sm;
+        text-align: center;
+    }
+}
